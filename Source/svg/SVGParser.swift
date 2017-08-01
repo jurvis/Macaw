@@ -1,6 +1,10 @@
 import Foundation
 import CoreGraphics
 
+#if !CARTHAGE
+    import SWXMLHash
+#endif
+
 ///
 /// This class used to parse SVG file and build corresponding Macaw scene
 ///
